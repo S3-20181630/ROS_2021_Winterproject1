@@ -83,7 +83,7 @@ if __name__ == "__main__":
 	print("dest_x, dest_y",dest_x, dest_y)
 
 	# 거북이 제어
-	if dest_x!=0 and dest_y!=0: #빨간색이 검출 되었을 
+	if dest_x!=0 and dest_y!=0: #빨간색이 검출 되었을 때
 		go_destination(dest_x,dest_y)
 	else:
 		print("Red is not detected")
